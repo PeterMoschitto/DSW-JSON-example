@@ -9,8 +9,12 @@ print(word_data) #word_data is a list of dictionaries
 #access the first element in the list and then access the value for the key 'word'
 print(word_data[0]['word'])
 
-"""
 for data in word_data: #data is each dictionary in the word_data list
+    print(data)
+    print()#print a blank line
+
+"""
+for data in word_data: 
     if data['part of speech'] == 'verb':
         print(data['word'])
         
