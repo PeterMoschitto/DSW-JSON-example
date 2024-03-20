@@ -1,7 +1,7 @@
 import json
 
 #load the data from the JSON file
-with open('words.json') as food:
+with open('foods.json') as food:
     food_data = json.load(food) 
 
 print(food_data) #word_data is a list of dictionaries
